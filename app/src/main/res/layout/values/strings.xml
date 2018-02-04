@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Bitcoin</string>
+
+   <string name="err_msg_name">Please fill the form</string>
+    <string name="crypto">Cryptocurrency</string>
+
+</resources>

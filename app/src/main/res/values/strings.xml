@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CryptoCoverter</string>
+
+    <string name="crypto">Cryptocurrency</string>
+    <string name="message">Please wait...</string>
+    <string name="dialogMessage">Select Currency</string>
+</resources>
