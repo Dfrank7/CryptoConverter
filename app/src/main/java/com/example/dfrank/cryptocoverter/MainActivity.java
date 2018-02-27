@@ -33,7 +33,6 @@ import static java.security.AccessController.getContext;
 
 public class MainActivity extends AppCompatActivity {
     private ProgressDialog progressDialog;
-    private SwipeRefreshLayout refreshLayout;
     List<Btc> rates = new ArrayList<>();
     List<Btc> iniRates = new ArrayList<>();
     private RecyclerView recyclerView;
@@ -47,7 +46,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         recyclerView = findViewById(R.id.recycler);
-        refreshLayout = findViewById(R.id.swipe);
         fab = findViewById(R.id.fab);
         initView();
 //        setCards();
